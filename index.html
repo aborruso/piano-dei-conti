@@ -37,6 +37,10 @@
 
 	
     <script src="./js/dist/exhibit-api.js?locale=it"></script>
+    <script type="text/javascript">
+    // Disabilita messaggi di debug di Exhibit per ridurre overhead
+    window.Exhibit && (Exhibit.debug = false);
+    </script>
 
     <script type="text/javascript">
     var tableStyler = function(table, database) {
